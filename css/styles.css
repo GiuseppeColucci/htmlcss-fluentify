@@ -4,3 +4,46 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+}
+/* UTILITY */
+.container{
+  width: 1200px;
+  margin:0 auto;
+  background-color: #0c325a;
+}
+
+.clear-fix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+.link-list-inline li{
+  padding: 6px;
+  display: inline-block;
+  text-decoration:none;
+  color: #fff;
+}
+
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+/* --------------------------------------------------------------------- */
+.main-header{
+  line-height: 80px;
+  font-size: 12px;
+  text-transform:uppercase;
+}
+.header-logo{
+  width:15%;
+}
+.header-nav{
+  width:45%;
+}
+.header-botton{
+  width:40%;
+}
