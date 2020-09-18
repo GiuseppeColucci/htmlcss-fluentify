@@ -19,11 +19,14 @@ body{
   display: table;
   clear: both;
 }
-.link-list-inline li{
+.link-list-inline li {
   padding: 6px;
   display: inline-block;
+}
+.link-list-inline li a{
   text-decoration:none;
   color: #fff;
+
 }
 
 .f-left{
@@ -32,6 +35,28 @@ body{
 .f-right{
   float: right;
 }
+.btn{
+  padding:0 5px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  line-height: 26px;
+  min-width: 100px;
+  text-align: center;
+}
+.btn-color{
+  background-color: #7fb802;
+  border: 1px solid #7fb802;
+}
+
+.btn-large{
+  padding:0 5px;
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid green;
+  line-height: 26px;
+}
+
 /* --------------------------------------------------------------------- */
 .main-header{
   line-height: 80px;
@@ -40,10 +65,12 @@ body{
 }
 .header-logo{
   width:15%;
+  padding: 15px;
 }
 .header-nav{
   width:45%;
 }
 .header-botton{
   width:40%;
+
 }
