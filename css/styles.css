@@ -42,11 +42,11 @@ h3{
 }
 .btn{
 
-  padding:10px;
+  padding:5px;
   display: inline-block;
   border-radius: 5px;
   border: 1px solid #fff;
-  line-height: 26px;
+  line-height: 23px;
   min-width: 100px;
   text-align: center;
   font-size: 14px;
@@ -89,16 +89,24 @@ header{
 }
 header .container{
   height: 600px;
+  position: relative;
+
+}
+.background{
   background-repeat: no-repeat;
   background-image: url(../img/background-header.png);
   background-size: 1000px;
-  background-position:right bottom;
+  background-position:-30px bottom;
+  height: 100%;
+  position:absolute;
+  bottom: 0;
+  right: -300px;
+  width: 100%;
 }
-
-
 h1{
   font-size: 50px;
   color:#fff;
+  margin-bottom: 15px;
 }
 .text-center{
   width: 50%;
