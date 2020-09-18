@@ -6,7 +6,7 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-
+  color: #808080;
 }
 /* UTILITY */
 .container{
@@ -40,8 +40,8 @@ h3{
 .f-right{
   float: right;
 }
-.btn{
 
+.btn{
   padding:5px;
   display: inline-block;
   border-radius: 5px;
@@ -68,7 +68,7 @@ h3{
 }
 
 /* --------------------------------------------------------------------- */
-
+/* parte hede/nav */
 header{
   background-color: #0c325a;
 }
@@ -88,14 +88,14 @@ header{
   width:40%;
 }
 header .container{
-  height: 600px;
+  height: 650px;
   position: relative;
 
 }
 .background{
   background-repeat: no-repeat;
   background-image: url(../img/background-header.png);
-  background-size: 1000px;
+  background-size: 1200px;
   background-position:-30px bottom;
   height: 100%;
   position:absolute;
@@ -111,4 +111,15 @@ h1{
 .text-center{
   width: 50%;
   margin-top: 100px;
+}
+/* parte main */
+.conteiner-center{
+  height: 130px;
+  background:#d3d3d3;
+  text-align: center;
+}
+.conteiner-center h2{
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #000;
 }
