@@ -155,12 +155,29 @@ h1{
 .container .box-text h2{
   color: black;
 }
-.box{
+.box-container{
+  width: 50%;
+  background-color: #fff;
+  height: 100px;
   padding: 40px 15px;
 }
-.box .container{
-  background-color: #fff;
+.box-container h2{
+  color: black;
+  padding-bottom:35px;
 }
-.logo-img{
-  height: 150px;
+
+.box-container p{
+  padding-bottom:35px;
+}
+/* botton HELP! */
+.help{
+  position: fixed;
+  bottom: 0;
+  right: 15%;
+}
+.help a{
+  display: inline-block;
+  padding: 10px;
+  color: #fff;
+  background:#7cbb02;
 }
