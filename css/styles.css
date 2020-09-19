@@ -152,24 +152,15 @@ h1{
 .colon-3 img{
   height: 150px;
 }
-
-/* .conteiner-center{
-  height: 130px;
-  background:#d3d3d3;
-  text-align: center;
+.container .box-text h2{
+  color: black;
 }
-
-
-
-.conteiner-center h2{
-  margin-bottom: 15px;
-  font-size: 28px;
-  color: #000;
+.box{
+  padding: 40px 15px;
 }
-
-
-
-
-
-
-*/
+.box .container{
+  background-color: #fff;
+}
+.logo-img{
+  height: 150px;
+}
