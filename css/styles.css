@@ -14,7 +14,6 @@ body{
   margin:0 auto;
   background-color: #0c325a;
 }
-
 .text-center{
   text-align: center;
 }
@@ -39,15 +38,12 @@ h3{
   text-decoration:none;
   color: #fff;
 }
-
-
 .f-left{
   float: left;
 }
 .f-right{
   float: right;
 }
-
 .btn{
   padding:5px;
   display: inline-block;
@@ -63,7 +59,6 @@ h3{
   border: 1px solid #7fb802;
   color: #fff;
 }
-
 .btn-large{
   padding:10px;
   display: inline-block;
@@ -73,7 +68,6 @@ h3{
   text-align:center;
   text-decoration: none;
 }
-
 /* --------------------------------------------------------------------- */
 /* parte hede/nav */
 header{
@@ -165,7 +159,6 @@ h1{
   color: black;
   padding-bottom:35px;
 }
-
 .box-container p{
   padding-bottom:35px;
 }
@@ -180,4 +173,5 @@ h1{
   padding: 10px;
   color: #fff;
   background:#7cbb02;
+  border-radius: 2px;
 }
